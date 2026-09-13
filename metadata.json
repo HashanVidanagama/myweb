@@ -1,0 +1,6 @@
+{
+  "name": "Turkish Airlines Flight Training Center",
+  "description": "Turkish Airlines Flight Training Center portal recreation featuring full flight simulators, pilot training programs, and registration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
