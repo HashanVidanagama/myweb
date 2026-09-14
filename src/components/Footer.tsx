@@ -148,11 +148,11 @@ export const Footer: React.FC<FooterProps> = ({
               <div className="flex items-center justify-center gap-3">
                 {/* Facebook */}
                 <a
-                  href="https://facebook.com"
+                  href="https://www.facebook.com/profile.php?id=61589640659363"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Facebook"
-                  title="Facebook"
+                  title="Follow Ceynova Technologies on Facebook"
                   className="w-8 h-8 rounded-lg bg-white/5 hover:bg-[#1877F2]/20 hover:text-[#1877F2] text-gray-300 flex items-center justify-center transition-all duration-200 border border-white/10 hover:border-[#1877F2]/40"
                 >
                   <svg viewBox="0 0 24 24" className="w-4 h-4 fill-current">
