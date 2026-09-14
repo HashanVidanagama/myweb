@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ceynova Technologies | Leading Software Engineering & AI Solutions</title>
     <link rel="canonical" href="https://ceynovatechnologies.dev/" />
-    <link rel="icon" type="image/png" href="/ceynova-logo.png" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <meta name="description" content="Ceynova Technologies (Ceynova) - Full-cycle high-impact software engineering, web applications, mobile platforms, bespoke desktop suites, and cognitive AI systems." />
     <meta name="keywords" content="ceynovatechnologies, ceynova, ceynova technologies, software engineering, AI solutions, web development, mobile apps" />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
@@ -25,7 +29,7 @@
     <meta name="twitter:description" content="Ceynova Technologies (Ceynova) provides full-cycle software engineering specializing in web platforms, mobile apps, desktop suites, and AI systems." />
     <meta name="twitter:image" content="https://ceynovatechnologies.dev/chatgpt-hero-image.png" />
 
-    <!-- Structured Data (JSON-LD) for Search Engines -->
+    <!-- Structured Data (JSON-LD) for Search Engines & Google Sitelinks -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -40,7 +44,7 @@
             "Ceynova Technologies Pvt Ltd"
           ],
           "url": "https://ceynovatechnologies.dev/",
-          "logo": "https://ceynovatechnologies.dev/ceynova-logo.png",
+          "logo": "https://ceynovatechnologies.dev/favicon-192x192.png",
           "description": "Full-cycle software engineering specializing in web platforms, mobile apps, standalone desktop suites, process automation, and cognitive AI systems."
         },
         {
@@ -55,6 +59,48 @@
           "publisher": {
             "@id": "https://ceynovatechnologies.dev/#organization"
           }
+        },
+        {
+          "@type": "ItemList",
+          "@id": "https://ceynovatechnologies.dev/#sitelinks",
+          "name": "Ceynova Technologies Quick Links",
+          "itemListElement": [
+            {
+              "@type": "SiteNavigationElement",
+              "position": 1,
+              "name": "Services",
+              "description": "Full-cycle software engineering, web, mobile, and AI solutions",
+              "url": "https://ceynovatechnologies.dev/#services"
+            },
+            {
+              "@type": "SiteNavigationElement",
+              "position": 2,
+              "name": "About Us",
+              "description": "Learn more about Ceynova Technologies and our engineering capabilities",
+              "url": "https://ceynovatechnologies.dev/#about"
+            },
+            {
+              "@type": "SiteNavigationElement",
+              "position": 3,
+              "name": "Vision",
+              "description": "Our vision and mission to pioneer high-impact digital solutions",
+              "url": "https://ceynovatechnologies.dev/#vision"
+            },
+            {
+              "@type": "SiteNavigationElement",
+              "position": 4,
+              "name": "Projects",
+              "description": "Featured software engineering projects and case studies",
+              "url": "https://ceynovatechnologies.dev/#projects"
+            },
+            {
+              "@type": "SiteNavigationElement",
+              "position": 5,
+              "name": "Contact Us",
+              "description": "Connect with Ceynova Technologies to discuss your requirements",
+              "url": "https://ceynovatechnologies.dev/#contact"
+            }
+          ]
         }
       ]
     }
@@ -65,6 +111,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
   </head>
   <body>
+    <!-- Semantic crawlable navigation for search engine bots -->
+    <noscript>
+      <nav aria-label="Site Links">
+        <ul>
+          <li><a href="https://ceynovatechnologies.dev/#services">Services</a></li>
+          <li><a href="https://ceynovatechnologies.dev/#about">About Us</a></li>
+          <li><a href="https://ceynovatechnologies.dev/#vision">Vision & Mission</a></li>
+          <li><a href="https://ceynovatechnologies.dev/#projects">Projects</a></li>
+          <li><a href="https://ceynovatechnologies.dev/#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </noscript>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
