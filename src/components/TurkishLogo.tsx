@@ -21,11 +21,11 @@ export const TurkishLogo: React.FC<TurkishLogoProps> = ({
   return (
     <div className={`flex items-center gap-2.5 select-none cursor-pointer ${className}`} id="brand-logo">
       {/* Official Ceynova Logo Emblem Image */}
-      <div className={`${circleSize} shrink-0 relative transition-transform hover:scale-105 duration-200 flex items-center justify-center`}>
+      <div className={`${circleSize} shrink-0 relative transition-transform hover:scale-105 duration-200 flex items-center justify-center rounded-full overflow-hidden`}>
         <img
           src="/ceynova-logo.png"
           alt="Ceynova Technologies"
-          className="w-full h-full object-contain"
+          className="w-full h-full object-contain rounded-full"
         />
       </div>
 

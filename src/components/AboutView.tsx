@@ -161,10 +161,7 @@ export const AboutView: React.FC<AboutViewProps> = ({
                 </p>
               </div>
 
-              <div className="pt-4 border-t border-white/10 flex items-center justify-between">
-                <span className="text-xs font-bold uppercase tracking-widest text-slate-400">
-                  Engineering Team
-                </span>
+              <div className="pt-4 border-t border-white/10 flex items-center justify-center text-center">
                 <span className="text-xs font-extrabold uppercase tracking-wider text-[#ff4b58]">
                   Ceynova Technologies
                 </span>

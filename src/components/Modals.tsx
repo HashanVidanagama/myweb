@@ -145,7 +145,7 @@ export const RegistrationModal: React.FC<ModalProps> = ({ isOpen, onClose }) => 
             <h4 className="text-xl font-bold text-gray-900">Project Brief Received</h4>
             <p className="text-sm text-gray-600 leading-relaxed">
               Thank you, <span className="font-semibold text-gray-900">{formData.fullName || 'Valued Partner'}</span>.
-              Our engineering architecture team will analyze your project scope and contact you at{' '}
+              Our team will analyze your project scope and contact you at{' '}
               <span className="font-semibold text-gray-900">{formData.email || 'your email'}</span> within 24 hours.
             </p>
             <button
@@ -289,7 +289,7 @@ export const ContactModal: React.FC<ModalProps> = ({ isOpen, onClose }) => {
             <span className="text-[10px] font-bold text-[#E30613] tracking-widest uppercase block">
               CEYNOVA TECHNOLOGIES
             </span>
-            <h3 className="text-lg font-black uppercase tracking-wide">Contact Engineering Team</h3>
+            <h3 className="text-lg font-black uppercase tracking-wide">Contact Us</h3>
           </div>
           <button onClick={onClose} className="text-gray-400 hover:text-white p-1">
             <X className="w-5 h-5" />

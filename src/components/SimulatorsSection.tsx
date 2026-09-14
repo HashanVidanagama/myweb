@@ -210,19 +210,9 @@ export const SimulatorsSection: React.FC<SimulatorsSectionProps> = ({
                             </React.Fragment>
                           ))}
                         </h3>
-                        <p className="text-[11.5px] leading-relaxed font-medium text-white/95 mb-4">
+                        <p className="text-[11.5px] leading-relaxed font-medium text-white/95">
                           {service.subtitle}
                         </p>
-
-                        {/* Bullet Highlights */}
-                        <div className="flex flex-col gap-1.5">
-                          {service.highlights.map((item, i) => (
-                            <div key={i} className="flex items-center gap-1.5 text-[10.5px] font-semibold text-white/90 uppercase tracking-wide">
-                              <span className="w-1.5 h-1.5 rounded-full bg-white shrink-0" />
-                              <span>{item}</span>
-                            </div>
-                          ))}
-                        </div>
                       </div>
                     </div>
                   </div>
@@ -352,22 +342,9 @@ export const SimulatorsSection: React.FC<SimulatorsSectionProps> = ({
                         {service.titleLines.join(' ')}
                       </h3>
 
-                      <p className="text-xs leading-relaxed text-gray-600 font-medium mb-4">
+                      <p className="text-xs leading-relaxed text-gray-600 font-medium mb-0">
                         {service.subtitle}
                       </p>
-
-                      {/* Highlights */}
-                      <div className="flex flex-wrap gap-1.5">
-                        {service.highlights.map((item, i) => (
-                          <span
-                            key={i}
-                            className="inline-flex items-center gap-1.5 text-[9.5px] font-bold uppercase bg-gray-100 text-gray-800 px-2.5 py-1 rounded border border-gray-200/80"
-                          >
-                            <span className="w-1.5 h-1.5 rounded-full bg-[#E30613] shrink-0" />
-                            <span>{item}</span>
-                          </span>
-                        ))}
-                      </div>
                     </div>
                   </div>
                 </div>

@@ -191,26 +191,26 @@ export const Footer: React.FC<FooterProps> = ({
         </div>
 
         {/* Bottom Bar: Logos and Copyright */}
-        <div className="border-t border-gray-800/80 pt-8 flex flex-col md:flex-row items-center justify-between gap-6">
+        <div className="border-t border-gray-800/80 pt-8 flex flex-col md:flex-row items-center justify-between gap-5 text-center md:text-left">
           {/* Left Brand Logos */}
-          <div className="flex flex-wrap items-center gap-4 sm:gap-6 text-xs text-gray-300">
+          <div className="flex items-center justify-center flex-nowrap gap-2.5 sm:gap-4 text-xs text-gray-300 max-w-full">
             {/* Ceynova Logo (Click to scroll up to Home) */}
             <button
               onClick={() => {
                 onNavigate('home');
                 window.scrollTo({ top: 0, behavior: 'smooth' });
               }}
-              className="cursor-pointer hover:opacity-85 active:scale-95 transition-all inline-flex items-center"
+              className="cursor-pointer hover:opacity-85 active:scale-95 transition-all inline-flex items-center shrink-0"
               title="Back to Top of Home"
               aria-label="Back to Top of Home"
             >
               <TurkishLogo variant="white" showSubtitle={false} size="sm" />
             </button>
 
-            <span className="text-gray-600 font-light">|</span>
+            <span className="text-gray-600 font-light select-none text-[11px] sm:text-xs shrink-0">|</span>
 
             {/* Enterprise Software Badge */}
-            <span className="text-xs text-gray-400 font-medium tracking-wide">
+            <span className="text-[10.5px] sm:text-xs text-gray-400 font-medium tracking-normal sm:tracking-wide whitespace-nowrap">
               High-Impact Software Engineering
             </span>
           </div>
